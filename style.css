@@ -1,0 +1,229 @@
+/* шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+
+/* используемые цвета */
+:root {
+    --base-color: #000000;
+    --level1: #181823;
+    --light-Grey: #8491A0;
+    --dark-Grey:#c7e0f4;
+    --text: #ffffff;
+    --primary:#5221E6;
+    --green-accent: #3cc74e;
+    --pink-accent: #e95d90;
+    --peach-accent:#fff3e4;
+    --violet-accent:#fbe4ff;
+}
+
+
+/* лого,nav  */
+.header {
+    width: 100%;
+    height: 88px;
+    background-color: var(--base-color);
+    display: flex;
+    background: linear-gradient(to right, var(--base-color) 40%, var(--level1) 30%);
+}
+
+.logo-img {
+    max-width: auto;
+    align-self: center;
+    left: 72px;
+    position: relative;
+}
+
+.conteiner-nav{
+    width: 476px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 810px;
+    position: relative;
+}
+
+.nav-text {
+    color: var(--text);
+    font-family: "Sen", sans-serif;
+    font-weight: 400;
+    size: 16px;
+}
+
+
+.nav-experience{
+    width: 132px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-work {
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-photography {
+    width: 147px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-contact{
+    width: 109px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-before:hover {
+    background-color: var(--primary);
+}
+
+/* автор */
+.hero-section {
+    width: 100%;
+    height: 814px;
+    background: linear-gradient(to right, var(--base-color) 40%, var(--level1) 30%);
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    width: auto;
+
+}
+
+.group-text {
+    width: 738px;
+    height: 368px;
+    position:absolute;
+    left: 46%;
+}
+
+.hero-text-1 {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 78px;
+    color: var(--text);
+}
+
+.span-hero-text {
+    color: var(--light-Grey);
+}
+
+.hero-text-2 {
+    position: relative;
+    color: var(--text);
+    font-family: "Sen", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    top: 30px;
+}
+
+/* текст работы */
+
+.work-experience {
+    height:715px;
+    background-color: var(--base-color);
+    width: 100%;
+}
+
+
+.text-work-top {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    position: relative;
+    top: 120px;
+    left: 72px;
+    color: var(--light-Grey);
+}
+
+.text-work-down {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    position: relative;
+    top: 152px;
+    left: 72px;
+    color: var(--text);
+}
+
+.conteiner-work {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    gap: 24px;
+}
+
+.company-block {
+    width: 416px;
+    height: 247px;  
+    display: inline; 
+}
+
+.number-work {
+    font-family: "Sen", sans-serif;
+    font-weight: 400;
+    font-size: 117px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--light-Grey);
+}
+
+.company-text {
+    font-family: "Sen", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-top: 5px;
+    color: var(--text);
+}
+
+.company-info {
+    font-family: "Sen", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-top: 15px;
+    color: var(--light-Grey);
+}
+
+.google-color {
+    color: var(--green-accent);
+}
+.facebook-color {
+    color: var(--primary);
+}
+.dribbble-color {
+    color: var(--pink-accent);
+}
+
+
+
+
+
+
+
+
+
